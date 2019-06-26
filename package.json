@@ -1,0 +1,40 @@
+{
+  "name": "json-rpc-pocket",
+  "version": "0.0.1",
+  "description": "An async middleware for json-rpc-engine using Pocket Network ",
+  "main": "src/index.js",
+  "dependencies": {
+    "eth-json-rpc-middleware": "^2.6.1",
+    "json-rpc-engine": "^5.0.0",
+    "json-rpc-error": "^2.0.0",
+    "pocket-js-core": "0.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokt-network/json-rpc-pocket.git"
+  },
+  "keywords": [
+    "blockchain",
+    "json-rpc",
+    "json",
+    "ethereum",
+    "poa",
+    "aion",
+    "pokt",
+    "pocket",
+    "pokt-network",
+    "poktnetwork"
+  ],
+  "author": "Luis C. de Leon <luis@pokt.network>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pokt-network/json-rpc-pocket/issues"
+  },
+  "homepage": "https://github.com/pokt-network/json-rpc-pocket#readme"
+}
